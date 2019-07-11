@@ -1,0 +1,15 @@
+{
+  "name": "webpack-3-2018",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:omiguelperez/webpack-3-2018.git",
+  "author": "Oscar Pérez <mr.omiguelperez@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack index.js -o bundle.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
