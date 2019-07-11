@@ -6,7 +6,8 @@
   "author": "Oscar Pérez <mr.omiguelperez@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack index.js -o bundle.js"
+    "build": "webpack index.js -o bundle.js",
+    "build:local": "webpack"
   },
   "devDependencies": {
     "webpack": "^4.35.3",
